@@ -33,9 +33,9 @@ const NavComponent = (props: { menus: NavProps<string>[] }): ReactElement => {
 export default function Header() {
   return (
     <header className="flex p-5 lg:mx-16 lg:py-8 items-center justify-between border-b lg:border-b-2 border-gray-300">
-      <div className="gap-x-2 flex lg:gap-x-8 items-center">
-        <Image src={menu_icon} alt="Menu Icon" className="h-fit w-4 cursor-pointer lg:hidden" />
-        <h1 className="text-xl lg:text-2xl font-extrabold">sneakers</h1>
+      <div className="gap-x-2 flex lg:gap-x-8 items-baseline">
+        <Image src={menu_icon} alt="Menu Icon" className="h-fit w-2.5 cursor-pointer lg:hidden" />
+        <h1 className="text-xl lg:text-2xl font-bold text-[#1d2025ff]">sneakers</h1>
         <NavComponent menus={headerMenus} />
       </div>
       <div className="flex items-center gap-x-4 lg:gap-x-8">
