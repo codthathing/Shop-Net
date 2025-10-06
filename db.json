@@ -1,0 +1,290 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "producerName": "Nike",
+      "productName": "Air Max 270",
+      "productDescription": "Lightweight sneaker with responsive cushioning.",
+      "productPrice": 45000,
+      "percentageOff": 10,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 2,
+      "producerName": "Adidas",
+      "productName": "Ultraboost 22",
+      "productDescription": "High-performance running shoe with energy return.",
+      "productPrice": 52000,
+      "percentageOff": 15,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 3,
+      "producerName": "Puma",
+      "productName": "RS-X3 Puzzle",
+      "productDescription": "Bold design with retro vibes and comfort.",
+      "productPrice": 48000,
+      "percentageOff": 20,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 4,
+      "producerName": "New Balance",
+      "productName": "574 Core",
+      "productDescription": "Classic silhouette with modern comfort.",
+      "productPrice": 39000,
+      "percentageOff": 5,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 5,
+      "producerName": "Converse",
+      "productName": "Chuck Taylor All Star",
+      "productDescription": "Timeless canvas sneaker for everyday wear.",
+      "productPrice": 35000,
+      "percentageOff": 0,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": 6,
+      "producerName": "Zara",
+      "productName": "Autumn Essentials",
+      "productDescription": "Layered looks for cool weather.",
+      "productPrice": 60000,
+      "percentageOff": 10,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 7,
+      "producerName": "H&M",
+      "productName": "Casual Comfort",
+      "productDescription": "Relaxed fits for everyday wear.",
+      "productPrice": 42000,
+      "percentageOff": 5,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 8,
+      "producerName": "ASOS",
+      "productName": "Streetwear Drop",
+      "productDescription": "Bold prints and oversized silhouettes.",
+      "productPrice": 55000,
+      "percentageOff": 20,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 9,
+      "producerName": "Nike",
+      "productName": "Tech Pack",
+      "productDescription": "Performance meets style in this capsule.",
+      "productPrice": 70000,
+      "percentageOff": 15,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 10,
+      "producerName": "Shein",
+      "productName": "Festival Vibes",
+      "productDescription": "Colorful outfits for outdoor fun.",
+      "productPrice": 38000,
+      "percentageOff": 25,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    }
+  ],
+  "men": [
+    {
+      "id": 11,
+      "producerName": "Tommy Hilfiger",
+      "productName": "Slim Fit Shirt",
+      "productDescription": "Crisp cotton shirt for formal wear.",
+      "productPrice": 45000,
+      "percentageOff": 10,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 12,
+      "producerName": "Levi's",
+      "productName": "501 Original Jeans",
+      "productDescription": "Classic straight-leg denim.",
+      "productPrice": 40000,
+      "percentageOff": 5,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 13,
+      "producerName": "Adidas",
+      "productName": "Men's Hoodie",
+      "productDescription": "Soft fleece hoodie with logo detail.",
+      "productPrice": 35000,
+      "percentageOff": 0,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 14,
+      "producerName": "Zara",
+      "productName": "Tailored Blazer",
+      "productDescription": "Modern fit blazer for smart occasions.",
+      "productPrice": 65000,
+      "percentageOff": 20,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 15,
+      "producerName": "Nike",
+      "productName": "Dri-FIT Training Tee",
+      "productDescription": "Moisture-wicking shirt for workouts.",
+      "productPrice": 28000,
+      "percentageOff": 10,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    }
+  ],
+  "women": [
+    {
+      "id": 16,
+      "producerName": "Shein",
+      "productName": "Floral Maxi Dress",
+      "productDescription": "Flowy dress perfect for summer outings.",
+      "productPrice": 32000,
+      "percentageOff": 15,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 17,
+      "producerName": "H&M",
+      "productName": "High-Waist Jeans",
+      "productDescription": "Comfortable and stylish denim fit.",
+      "productPrice": 38000,
+      "percentageOff": 10,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 18,
+      "producerName": "Zara",
+      "productName": "Oversized Blazer",
+      "productDescription": "Chic layering piece for office or casual wear.",
+      "productPrice": 47000,
+      "percentageOff": 20,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 19,
+      "producerName": "Nike",
+      "productName": "Women's Running Shorts",
+      "productDescription": "Lightweight shorts with breathable fabric.",
+      "productPrice": 25000,
+      "percentageOff": 5,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    },
+    {
+      "id": 20,
+      "producerName": "ASOS",
+      "productName": "Crop Top Set",
+      "productDescription": "Trendy two-piece for casual outings.",
+      "productPrice": 30000,
+      "percentageOff": 25,
+      "productImages": [
+        { "id": 1, "image": "" },
+        { "id": 2, "image": "" },
+        { "id": 3, "image": "" },
+        { "id": 4, "image": "" }
+      ]
+    }
+  ]
+}
