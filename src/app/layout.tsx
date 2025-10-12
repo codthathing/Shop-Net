@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "../components/layout/Header";
 import { MainProvider } from "@/contexts/MainContext";
 
 const geistSans = Geist({
@@ -19,16 +18,11 @@ export const metadata: Metadata = {
   description: "Get different products here for Male, Female, Unisex.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <MainProvider>
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100dvh] flex flex-col`}>
-          <Header />
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100dvh]`}>
           {children}
         </body>
       </MainProvider>

@@ -4,14 +4,20 @@ import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useStat
 interface MainContextType {
   showNavigation: boolean;
   setShowNavigation: Dispatch<SetStateAction<boolean>>;
+  showCartSection: boolean;
+  setShowCartSection: Dispatch<SetStateAction<boolean>>;
+  db: IDBDatabase | undefined;
+  setDb: Dispatch<SetStateAction<IDBDatabase | undefined>>;
 }
 
 const MainContext = createContext<MainContextType | null>(null);
 
 export const MainProvider = ({ children }: { children: ReactNode }) => {
   const [showNavigation, setShowNavigation] = useState<boolean>(false);
+  const [showCartSection, setShowCartSection] = useState<boolean>(false);
+  const [db, setDb] = useState<IDBDatabase | undefined>(undefined);
 
-  return <MainContext.Provider value={{ showNavigation, setShowNavigation }}>{children}</MainContext.Provider>;
+  return <MainContext.Provider value={{ showNavigation, setShowNavigation, showCartSection, setShowCartSection, db, setDb }}>{children}</MainContext.Provider>;
 };
 
 export const useMainContext = () => {
