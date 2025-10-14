@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function NavigationLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <main className="h-full flex flex-col">
+    <main className="bg-white h-full flex flex-col">
       <Header />
       {children}
     </main>
