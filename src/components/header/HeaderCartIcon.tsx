@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import cart_icon from "../../assets/icon-cart.svg";
-import { useMainContext } from "@/contexts/MainContext";
+import cart_icon from "../../../public/assets/icon-cart.svg";
+import { useMainContext } from "@/store/MainContext";
 
 export default function HeaderCartIcon() {
   const { setShowCartSection } = useMainContext();

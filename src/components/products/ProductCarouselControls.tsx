@@ -1,6 +1,6 @@
 import Image from "next/image";
-import icon_previous from "../../assets/icon-previous.svg";
-import icon_next from "../../assets/icon-next.svg";
+import icon_previous from "../../../public/assets/icon-previous.svg";
+import icon_next from "../../../public/assets/icon-next.svg";
 
 export default function ProductCarouselControls() {
   return (

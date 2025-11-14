@@ -1,5 +1,5 @@
 "use client";
-import { useMainContext } from "@/contexts/MainContext";
+import { useMainContext } from "@/store/MainContext";
 import { useEffect, useState } from "react";
 
 export const useIndexDB = () => {

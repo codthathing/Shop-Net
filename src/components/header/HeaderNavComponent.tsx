@@ -1,8 +1,8 @@
 "use client";
 import React, { ReactElement, useState } from "react";
 import Image from "next/image";
-import close_icon from "../../assets/icon-close.svg";
-import { useMainContext } from "@/contexts/MainContext";
+import close_icon from "../../../public/assets/icon-close.svg";
+import { useMainContext } from "@/store/MainContext";
 import Link from "next/link";
 
 interface NavProps<T> {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import product_one_thumbnail from "../../assets/products/image-product-1-thumbnail.jpg";
+import product_one_thumbnail from "../../../public/assets/products/image-product-1-thumbnail.jpg";
 
 export default function ProductImages() {
   return (

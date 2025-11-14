@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import menu_icon from "../../assets/icon-menu.svg";
-import { useMainContext } from "@/contexts/MainContext";
+import menu_icon from "../../../public/assets/icon-menu.svg";
+import { useMainContext } from "@/store/MainContext";
 
 export default function HeaderNavOpenButton() {
   const { setShowNavigation } = useMainContext();

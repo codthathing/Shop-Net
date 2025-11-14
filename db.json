@@ -8,10 +8,10 @@
       "productPrice": 45000,
       "percentageOff": 10,
       "productImages": [
-        { "id": 1, "image": "./src/assets/sneakers/air-max-270-bg-1.jpeg" },
-        { "id": 2, "image": "./src/assets/sneakers/air-max-270-bg-2.avif" },
-        { "id": 3, "image": "./src/assets/sneakers/air-max-270-bg-3.avif" },
-        { "id": 4, "image": "./src/assets/sneakers/air-max-270-bg-4.avif" }
+        { "id": 1, "image": "./public/assets/sneakers/air-max-270-bg-1.jpeg" },
+        { "id": 2, "image": "./public/assets/sneakers/air-max-270-bg-2.avif" },
+        { "id": 3, "image": "./public/assets/sneakers/air-max-270-bg-3.avif" },
+        { "id": 4, "image": "./public/assets/sneakers/air-max-270-bg-4.avif" }
       ]
     },
     {
@@ -22,10 +22,10 @@
       "productPrice": 52000,
       "percentageOff": 15,
       "productImages": [
-        { "id": 1, "image": "./src/assets/sneakers/ultraboost-5x-1.avif" },
-        { "id": 2, "image": "./src/assets/sneakers/ultraboost-5x-2.avif" },
-        { "id": 3, "image": "./src/assets/sneakers/ultraboost-5x-3.avif" },
-        { "id": 4, "image": "./src/assets/sneakers/ultraboost-5x-4.avif" }
+        { "id": 1, "image": "./public/assets/sneakers/ultraboost-5x-1.avif" },
+        { "id": 2, "image": "./public/assets/sneakers/ultraboost-5x-2.avif" },
+        { "id": 3, "image": "./public/assets/sneakers/ultraboost-5x-3.avif" },
+        { "id": 4, "image": "./public/assets/sneakers/ultraboost-5x-4.avif" }
       ]
     },
     {
@@ -36,10 +36,10 @@
       "productPrice": 48000,
       "percentageOff": 20,
       "productImages": [
-        { "id": 1, "image": "./src/assets/sneakers/rs-x3-puzzle-1.avif" },
-        { "id": 2, "image": "./src/assets/sneakers/rs-x3-puzzle-2.avif" },
-        { "id": 3, "image": "./src/assets/sneakers/rs-x3-puzzle-3.avif" },
-        { "id": 4, "image": "./src/assets/sneakers/rs-x3-puzzle-4.avif" }
+        { "id": 1, "image": "./public/assets/sneakers/rs-x3-puzzle-1.avif" },
+        { "id": 2, "image": "./public/assets/sneakers/rs-x3-puzzle-2.avif" },
+        { "id": 3, "image": "./public/assets/sneakers/rs-x3-puzzle-3.avif" },
+        { "id": 4, "image": "./public/assets/sneakers/rs-x3-puzzle-4.avif" }
       ]
     },
     {
@@ -50,10 +50,10 @@
       "productPrice": 39000,
       "percentageOff": 5,
       "productImages": [
-        { "id": 1, "image": "./src/assets/sneakers/574-core-1.webp" },
-        { "id": 2, "image": "./src/assets/sneakers/574-core-2.webp" },
-        { "id": 3, "image": "./src/assets/sneakers/574-core-3.webp" },
-        { "id": 4, "image": "./src/assets/sneakers/574-core-4.webp" }
+        { "id": 1, "image": "./public/assets/sneakers/574-core-1.webp" },
+        { "id": 2, "image": "./public/assets/sneakers/574-core-2.webp" },
+        { "id": 3, "image": "./public/assets/sneakers/574-core-3.webp" },
+        { "id": 4, "image": "./public/assets/sneakers/574-core-4.webp" }
       ]
     },
     {
@@ -64,10 +64,10 @@
       "productPrice": 35000,
       "percentageOff": 0,
       "productImages": [
-        { "id": 1, "image": "./src/assets/sneakers/chuck-taylor-1.webp" },
-        { "id": 2, "image": "./src/assets/sneakers/chuck-taylor-2.webp" },
-        { "id": 3, "image": "./src/assets/sneakers/chuck-taylor-3.webp" },
-        { "id": 4, "image": "./src/assets/sneakers/chuck-taylor-4.webp" }
+        { "id": 1, "image": "./public/assets/sneakers/chuck-taylor-1.webp" },
+        { "id": 2, "image": "./public/assets/sneakers/chuck-taylor-2.webp" },
+        { "id": 3, "image": "./public/assets/sneakers/chuck-taylor-3.webp" },
+        { "id": 4, "image": "./public/assets/sneakers/chuck-taylor-4.webp" }
       ]
     }
   ],
@@ -80,10 +80,10 @@
       "productPrice": 60000,
       "percentageOff": 10,
       "productImages": [
-        { "id": 1, "image": "./src/assets/collections/antumn-1.jpeg" },
-        { "id": 2, "image": "./src/assets/collections/antumn-2.jpeg" },
-        { "id": 3, "image": "./src/assets/collections/antumn-3.jpeg" },
-        { "id": 4, "image": "./src/assets/collections/antumn-4.jpeg" }
+        { "id": 1, "image": "./public/assets/collections/antumn-1.jpeg" },
+        { "id": 2, "image": "./public/assets/collections/antumn-2.jpeg" },
+        { "id": 3, "image": "./public/assets/collections/antumn-3.jpeg" },
+        { "id": 4, "image": "./public/assets/collections/antumn-4.jpeg" }
       ]
     },
     {
@@ -94,10 +94,10 @@
       "productPrice": 42000,
       "percentageOff": 5,
       "productImages": [
-        { "id": 1, "image": "./src/assets/collections/casual-comfort-1.avif" },
-        { "id": 2, "image": "./src/assets/collections/casual-comfort-2.avif" },
-        { "id": 3, "image": "./src/assets/collections/casual-comfort-3.avif" },
-        { "id": 4, "image": "./src/assets/collections/casual-comfort-4.avif" }
+        { "id": 1, "image": "./public/assets/collections/casual-comfort-1.avif" },
+        { "id": 2, "image": "./public/assets/collections/casual-comfort-2.avif" },
+        { "id": 3, "image": "./public/assets/collections/casual-comfort-3.avif" },
+        { "id": 4, "image": "./public/assets/collections/casual-comfort-4.avif" }
       ]
     },
     {
@@ -108,10 +108,10 @@
       "productPrice": 55000,
       "percentageOff": 20,
       "productImages": [
-        { "id": 1, "image": "./src/assets/collections/streetwear-1.avif" },
-        { "id": 2, "image": "./src/assets/collections/streetwear-2.avif" },
-        { "id": 3, "image": "./src/assets/collections/streetwear-3.avif" },
-        { "id": 4, "image": "./src/assets/collections/streetwear-4.avif" }
+        { "id": 1, "image": "./public/assets/collections/streetwear-1.avif" },
+        { "id": 2, "image": "./public/assets/collections/streetwear-2.avif" },
+        { "id": 3, "image": "./public/assets/collections/streetwear-3.avif" },
+        { "id": 4, "image": "./public/assets/collections/streetwear-4.avif" }
       ]
     },
     {
@@ -122,10 +122,10 @@
       "productPrice": 70000,
       "percentageOff": 15,
       "productImages": [
-        { "id": 1, "image": "./src/assets/collections/tech-pack-1.avif" },
-        { "id": 2, "image": "./src/assets/collections/tech-pack-2.avif" },
-        { "id": 3, "image": "./src/assets/collections/tech-pack-3.avif" },
-        { "id": 4, "image": "./src/assets/collections/tech-pack-4.avif" }
+        { "id": 1, "image": "./public/assets/collections/tech-pack-1.avif" },
+        { "id": 2, "image": "./public/assets/collections/tech-pack-2.avif" },
+        { "id": 3, "image": "./public/assets/collections/tech-pack-3.avif" },
+        { "id": 4, "image": "./public/assets/collections/tech-pack-4.avif" }
       ]
     },
     {
@@ -136,10 +136,10 @@
       "productPrice": 38000,
       "percentageOff": 25,
       "productImages": [
-        { "id": 1, "image": "./src/assets/collections/festival-vibes-1.jpeg" },
-        { "id": 2, "image": "./src/assets/collections/festival-vibes-2.jpeg" },
-        { "id": 3, "image": "./src/assets/collections/festival-vibes-3.jpeg" },
-        { "id": 4, "image": "./src/assets/collections/festival-vibes-4.jpeg" }
+        { "id": 1, "image": "./public/assets/collections/festival-vibes-1.jpeg" },
+        { "id": 2, "image": "./public/assets/collections/festival-vibes-2.jpeg" },
+        { "id": 3, "image": "./public/assets/collections/festival-vibes-3.jpeg" },
+        { "id": 4, "image": "./public/assets/collections/festival-vibes-4.jpeg" }
       ]
     }
   ],
@@ -152,10 +152,10 @@
       "productPrice": 45000,
       "percentageOff": 10,
       "productImages": [
-        { "id": 1, "image": "./src/assets/men/slim-fit-shirt-1.webp" },
-        { "id": 2, "image": "./src/assets/men/slim-fit-shirt-2.webp" },
-        { "id": 3, "image": "./src/assets/men/slim-fit-shirt-3.webp" },
-        { "id": 4, "image": "./src/assets/men/slim-fit-shirt-4.webp" }
+        { "id": 1, "image": "./public/assets/men/slim-fit-shirt-1.webp" },
+        { "id": 2, "image": "./public/assets/men/slim-fit-shirt-2.webp" },
+        { "id": 3, "image": "./public/assets/men/slim-fit-shirt-3.webp" },
+        { "id": 4, "image": "./public/assets/men/slim-fit-shirt-4.webp" }
       ]
     },
     {
@@ -166,10 +166,10 @@
       "productPrice": 40000,
       "percentageOff": 5,
       "productImages": [
-        { "id": 1, "image": "./src/assets/men/501-original-jean-1.webp" },
-        { "id": 2, "image": "./src/assets/men/501-original-jean-2.webp" },
-        { "id": 3, "image": "./src/assets/men/501-original-jean-3.webp" },
-        { "id": 4, "image": "./src/assets/men/501-original-jean-4.webp" }
+        { "id": 1, "image": "./public/assets/men/501-original-jean-1.webp" },
+        { "id": 2, "image": "./public/assets/men/501-original-jean-2.webp" },
+        { "id": 3, "image": "./public/assets/men/501-original-jean-3.webp" },
+        { "id": 4, "image": "./public/assets/men/501-original-jean-4.webp" }
       ]
     },
     {
@@ -180,10 +180,10 @@
       "productPrice": 35000,
       "percentageOff": 0,
       "productImages": [
-        { "id": 1, "image": "./src/assets/men/mens-hoodie-1.jpg" },
-        { "id": 2, "image": "./src/assets/men/mens-hoodie-2.png" },
-        { "id": 3, "image": "./src/assets/men/mens-hoodie-3.jpg" },
-        { "id": 4, "image": "./src/assets/men/mens-hoodie-4.jpg" }
+        { "id": 1, "image": "./public/assets/men/mens-hoodie-1.jpg" },
+        { "id": 2, "image": "./public/assets/men/mens-hoodie-2.png" },
+        { "id": 3, "image": "./public/assets/men/mens-hoodie-3.jpg" },
+        { "id": 4, "image": "./public/assets/men/mens-hoodie-4.jpg" }
       ]
     },
     {
@@ -194,10 +194,10 @@
       "productPrice": 65000,
       "percentageOff": 20,
       "productImages": [
-        { "id": 1, "image": "./src/assets/men/tailored-blazer-1.jpg" },
-        { "id": 2, "image": "./src/assets/men/tailored-blazer-2.jpg" },
-        { "id": 3, "image": "./src/assets/men/tailored-blazer-3.jpg" },
-        { "id": 4, "image": "./src/assets/men/tailored-blazer-4.jpg" }
+        { "id": 1, "image": "./public/assets/men/tailored-blazer-1.jpg" },
+        { "id": 2, "image": "./public/assets/men/tailored-blazer-2.jpg" },
+        { "id": 3, "image": "./public/assets/men/tailored-blazer-3.jpg" },
+        { "id": 4, "image": "./public/assets/men/tailored-blazer-4.jpg" }
       ]
     },
     {
@@ -208,10 +208,10 @@
       "productPrice": 28000,
       "percentageOff": 10,
       "productImages": [
-        { "id": 1, "image": "./src/assets/men/dri-fit-1.avif" },
-        { "id": 2, "image": "./src/assets/men/dri-fit-2.avif" },
-        { "id": 3, "image": "./src/assets/men/dri-fit-3.avif" },
-        { "id": 4, "image": "./src/assets/men/dri-fit-4.avif" }
+        { "id": 1, "image": "./public/assets/men/dri-fit-1.avif" },
+        { "id": 2, "image": "./public/assets/men/dri-fit-2.avif" },
+        { "id": 3, "image": "./public/assets/men/dri-fit-3.avif" },
+        { "id": 4, "image": "./public/assets/men/dri-fit-4.avif" }
       ]
     }
   ],
@@ -224,10 +224,10 @@
       "productPrice": 32000,
       "percentageOff": 15,
       "productImages": [
-        { "id": 1, "image": "./src/assets/women/floral-maxi-1.jpeg" },
-        { "id": 2, "image": "./src/assets/women/floral-maxi-2.jpeg" },
-        { "id": 3, "image": "./src/assets/women/floral-maxi-3.jpeg" },
-        { "id": 4, "image": "./src/assets/women/floral-maxi-4.jpeg" }
+        { "id": 1, "image": "./public/assets/women/floral-maxi-1.jpeg" },
+        { "id": 2, "image": "./public/assets/women/floral-maxi-2.jpeg" },
+        { "id": 3, "image": "./public/assets/women/floral-maxi-3.jpeg" },
+        { "id": 4, "image": "./public/assets/women/floral-maxi-4.jpeg" }
       ]
     },
     {
@@ -238,10 +238,10 @@
       "productPrice": 38000,
       "percentageOff": 10,
       "productImages": [
-        { "id": 1, "image": "./src/assets/women/high-waist-jeans-1.avif" },
-        { "id": 2, "image": "./src/assets/women/high-waist-jeans-2.avif" },
-        { "id": 3, "image": "./src/assets/women/high-waist-jeans-3.avif" },
-        { "id": 4, "image": "./src/assets/women/high-waist-jeans-4.avif" }
+        { "id": 1, "image": "./public/assets/women/high-waist-jeans-1.avif" },
+        { "id": 2, "image": "./public/assets/women/high-waist-jeans-2.avif" },
+        { "id": 3, "image": "./public/assets/women/high-waist-jeans-3.avif" },
+        { "id": 4, "image": "./public/assets/women/high-waist-jeans-4.avif" }
       ]
     },
     {
@@ -252,10 +252,10 @@
       "productPrice": 47000,
       "percentageOff": 20,
       "productImages": [
-        { "id": 1, "image": "./src/assets/women/oversized-blazer-1.jpg" },
-        { "id": 2, "image": "./src/assets/women/oversized-blazer-2.jpg" },
-        { "id": 3, "image": "./src/assets/women/oversized-blazer-3.jpg" },
-        { "id": 4, "image": "./src/assets/women/oversized-blazer-4.jpg" }
+        { "id": 1, "image": "./public/assets/women/oversized-blazer-1.jpg" },
+        { "id": 2, "image": "./public/assets/women/oversized-blazer-2.jpg" },
+        { "id": 3, "image": "./public/assets/women/oversized-blazer-3.jpg" },
+        { "id": 4, "image": "./public/assets/women/oversized-blazer-4.jpg" }
       ]
     },
     {
@@ -266,10 +266,10 @@
       "productPrice": 25000,
       "percentageOff": 5,
       "productImages": [
-        { "id": 1, "image": "./src/assets/women/running-shorts-1.avif" },
-        { "id": 2, "image": "./src/assets/women/running-shorts-2.avif" },
-        { "id": 3, "image": "./src/assets/women/running-shorts-3.avif" },
-        { "id": 4, "image": "./src/assets/women/running-shorts-4.avif" }
+        { "id": 1, "image": "./public/assets/women/running-shorts-1.avif" },
+        { "id": 2, "image": "./public/assets/women/running-shorts-2.avif" },
+        { "id": 3, "image": "./public/assets/women/running-shorts-3.avif" },
+        { "id": 4, "image": "./public/assets/women/running-shorts-4.avif" }
       ]
     },
     {
@@ -280,10 +280,10 @@
       "productPrice": 30000,
       "percentageOff": 25,
       "productImages": [
-        { "id": 1, "image": "./src/assets/women/crop-top-set-1.jpeg" },
-        { "id": 2, "image": "./src/assets/women/crop-top-set-1.jpeg" },
-        { "id": 3, "image": "./src/assets/women/crop-top-set-1.jpeg" },
-        { "id": 4, "image": "./src/assets/women/crop-top-set-1.jpeg" }
+        { "id": 1, "image": "./public/assets/women/crop-top-set-1.jpeg" },
+        { "id": 2, "image": "./public/assets/women/crop-top-set-1.jpeg" },
+        { "id": 3, "image": "./public/assets/women/crop-top-set-1.jpeg" },
+        { "id": 4, "image": "./public/assets/women/crop-top-set-1.jpeg" }
       ]
     }
   ]

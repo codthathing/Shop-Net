@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import image_avatar from "../../assets/image-avatar.png";
+import image_avatar from "../../../public/assets/image-avatar.png";
 import HeaderNavComponent from "../header/HeaderNavComponent";
 import HeaderNavOpenButton from "../header/HeaderNavOpenButton";
-import CartSection from "../../features/cart/CartSection";
+import CartSection from "../cart/CartSection";
 import HeaderCartIcon from "../header/HeaderCartIcon";
 
 type menusType = {

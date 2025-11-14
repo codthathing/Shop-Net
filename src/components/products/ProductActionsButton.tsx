@@ -1,7 +1,7 @@
 import Image from "next/image";
-import icon_minus from "../../assets/icon-minus.svg";
-import icon_plus from "../../assets/icon-plus.svg";
-import icon_cart from "../../assets/icon-cart.svg";
+import icon_minus from "../../../public/assets/icon-minus.svg";
+import icon_plus from "../../../public/assets/icon-plus.svg";
+import icon_cart from "../../../public/assets/icon-cart.svg";
 
 type ProductDetails = {
   id: number;

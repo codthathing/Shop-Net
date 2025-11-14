@@ -1,4 +1,6 @@
-export default function ProductDetails() {
+import { ProductDetailsType } from "@/types/productType";
+
+export default function ProductDetails({ producerName, productName, productDescription, productPrice, percentageOff }: ProductDetailsType) {
   return (
     <>
       <p className="uppercase text-[#68707dff] text-xs lg:text-sm">sneaker company</p>
