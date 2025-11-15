@@ -12,7 +12,7 @@ export default async function SneakersPage() {
 
   return (
     <section className="flex-1 lg:flex lg:justify-center lg:items-center">
-      <ProductTemplate products={data.slice(0, 1)} />
+      <ProductTemplate products={data.splice(1, 1)} />
     </section>
   );
 }
