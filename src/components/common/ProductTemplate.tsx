@@ -4,7 +4,6 @@ import ProductDetails from "../products/ProductDetails";
 import ProductActionsButton from "../products/ProductActionsButton";
 import { GeneralProductType } from "@/types/productType";
 import ProductMainImage from "../products/ProductMainImage";
-import { Suspense } from "react";
 
 export default function ProductTemplate({ products }: { products: GeneralProductType[] }) {
   return (
@@ -13,9 +12,7 @@ export default function ProductTemplate({ products }: { products: GeneralProduct
         return (
           <main key={id} className="lg:grid lg:gap-x-[7.5rem] lg:grid-cols-2 lg:w-3/4 lg:items-center">
             <div className="relative">
-              <Suspense fallback={<p>loading...</p>}>
-                <ProductMainImage images={productImages} />
-              </Suspense>
+              <ProductMainImage />
               <ProductImages images={productImages} />
               <ProductCarouselControls images={productImages} />
             </div>
