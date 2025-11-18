@@ -18,7 +18,7 @@ export const MainProvider = ({ children }: { children: ReactNode }) => {
   const [showNavigation, setShowNavigation] = useState<boolean>(false);
   const [showCartSection, setShowCartSection] = useState<boolean>(false);
   const [db, setDb] = useState<IDBDatabase | undefined>(undefined);
-  const [mainImage, setMainImage] = useState<{ id: number, image: string }>({ id: 0, image: "" });
+  const [mainImage, setMainImage] = useState<{ id: number, image: string }>({ id: 0, image: "/assets/default-image-product.jpg" });
 
   return <MainContext.Provider value={{ showNavigation, setShowNavigation, showCartSection, setShowCartSection, db, setDb, mainImage, setMainImage }}>{children}</MainContext.Provider>;
 };
