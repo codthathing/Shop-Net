@@ -1,10 +1,28 @@
 "use client";
 import { useMainContext } from "@/store/MainContext";
-import { useEffect, useState } from "react";
+import { CartProductType } from "@/types/productType";
+import { Dispatch, SetStateAction, useEffect } from "react";
+
+export const getAllCartItems = (db: IDBDatabase, setCartItems: Dispatch<SetStateAction<CartProductType[]>>) => {
+  const transaction = db.transaction(["cartItems"], "readonly");
+  const cartStore = transaction.objectStore("cartItems");
+
+  const request = cartStore.getAll();
+
+  request.onsuccess = (event: Event) => {
+    const items = (event.target as IDBRequest).result;
+    setCartItems(items);
+
+    console.log("Successfully loaded the cart items");
+  };
+
+  request.onerror = (event: Event) => {
+    console.error("Unable to load cart items:", (event.target as IDBRequest).error);
+  };
+};
 
 export const useIndexDB = () => {
-  const { db, setDb } = useMainContext();
-  const [cartItems, setCartItems] = useState<{ id: number }[]>([]);
+  const { db, setDb, cartItems, setCartItems } = useMainContext();
 
   useEffect(() => {
     const request = indexedDB.open("User Database", 1);
@@ -15,7 +33,7 @@ export const useIndexDB = () => {
 
       console.log("Database has successfully been opened.");
 
-      getAllCartItems(database);
+      getAllCartItems(database, setCartItems);
     };
 
     request.onerror = (event: Event) => {
@@ -28,7 +46,7 @@ export const useIndexDB = () => {
       if (!database.objectStoreNames.contains("cartItems")) console.log("CartItems store created");
 
       const cartStore = database.createObjectStore("cartItems", { keyPath: "id", autoIncrement: true });
-      cartStore.createIndex("id", "id", { unique: true });
+      cartStore.createIndex("productName", "productName", { unique: true });
 
       console.log("Database updgrade complete!");
     };
@@ -37,24 +55,6 @@ export const useIndexDB = () => {
       console.warn("Database upgrade blocked. Please close other tabs using this database.", (event.target as IDBOpenDBRequest).error);
     };
   }, [setDb]);
-
-  const getAllCartItems = (db: IDBDatabase) => {
-    const transaction = db.transaction(["cartItems"], "readonly");
-    const cartStore = transaction.objectStore("cartItems");
-
-    const request = cartStore.getAll();
-
-    request.onsuccess = (event: Event) => {
-      const items = (event.target as IDBRequest).result;
-      setCartItems(items);
-
-      console.log("Successfully loaded the cart items");
-    };
-
-    request.onerror = (event: Event) => {
-      console.error("Unable to load cart items:", (event.target as IDBRequest).error);
-    };
-  };
 
   return { db, cartItems };
 };

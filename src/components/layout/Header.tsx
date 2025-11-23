@@ -16,8 +16,6 @@ const headerMenus: menusType[] = [
   { id: 1, text: "collections" },
   { id: 2, text: "men" },
   { id: 3, text: "women" },
-  { id: 4, text: "about" },
-  { id: 5, text: "contact" },
 ];
 
 export default function Header() {
@@ -29,7 +27,7 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-x-4 lg:gap-x-8 mr-5">
         <HeaderCartIcon />
-        <Image src={image_avatar} alt={"Image Avatar"} className="w-6 h-6 lg:w-8 lg:h-8 rounded-full border border-transparent hover:border-[#ff7d1aff] cursor-pointer" />
+        <Image src={image_avatar} alt={"Image Avatar"} className="w-6 h-6 lg:w-8 lg:h-8 rounded-full border-2 border-transparent hover:border-[#d9945d] cursor-pointer" />
       </div>
       <CartSection />
     </header>

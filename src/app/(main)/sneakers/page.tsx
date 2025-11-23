@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ProductTemplate from "@/components/common/ProductTemplate";
 import { GeneralProductType } from "@/types/productType";
 import { Suspense } from "react";
-import Loading from "./loading";
+import Loading from "../loading";
 
 export const metadata: Metadata = {
   title: "Sneakers Page",

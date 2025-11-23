@@ -18,7 +18,7 @@ export default function ProductTemplate({ products }: { products: GeneralProduct
             </div>
             <div className="px-4 pt-6 pb-2 flex flex-col gap-y-3 lg:pt-0 lg:pb-0 lg:gap-y-7">
               <ProductDetails producerName={producerName} productName={productName} productDescription={productDescription} productPrice={productPrice} percentageOff={percentageOff} />
-              <ProductActionsButton id={0} productCartCount={0} />
+              <ProductActionsButton id={id} products={products} />
             </div>
           </main>
         );

@@ -1,4 +1,5 @@
 "use client";
+import { CartProductType } from "@/types/productType";
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useState } from "react";
 
 interface MainContextType {
@@ -8,8 +9,10 @@ interface MainContextType {
   setShowCartSection: Dispatch<SetStateAction<boolean>>;
   db: IDBDatabase | undefined;
   setDb: Dispatch<SetStateAction<IDBDatabase | undefined>>;
-  mainImage: { id: number, image: string };
-  setMainImage: Dispatch<SetStateAction<{ id: number, image: string }>>;
+  cartItems: CartProductType[];
+  setCartItems: Dispatch<SetStateAction<CartProductType[]>>;
+  mainImage: { id: number; image: string };
+  setMainImage: Dispatch<SetStateAction<{ id: number; image: string }>>;
 }
 
 const MainContext = createContext<MainContextType | null>(null);
@@ -18,9 +21,10 @@ export const MainProvider = ({ children }: { children: ReactNode }) => {
   const [showNavigation, setShowNavigation] = useState<boolean>(false);
   const [showCartSection, setShowCartSection] = useState<boolean>(false);
   const [db, setDb] = useState<IDBDatabase | undefined>(undefined);
-  const [mainImage, setMainImage] = useState<{ id: number, image: string }>({ id: 0, image: "/assets/default-image-product.jpg" });
+  const [cartItems, setCartItems] = useState<CartProductType[]>([]);
+  const [mainImage, setMainImage] = useState<{ id: number; image: string }>({ id: 0, image: "/assets/default-image-product.png" });
 
-  return <MainContext.Provider value={{ showNavigation, setShowNavigation, showCartSection, setShowCartSection, db, setDb, mainImage, setMainImage }}>{children}</MainContext.Provider>;
+  return <MainContext.Provider value={{ showNavigation, setShowNavigation, showCartSection, setShowCartSection, db, setDb, cartItems, setCartItems, mainImage, setMainImage }}>{children}</MainContext.Provider>;
 };
 
 export const useMainContext = () => {
