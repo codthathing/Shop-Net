@@ -10,8 +10,10 @@ export const metadata: Metadata = {
 
 async function getProductDetails() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
-  const res = await fetch("http://localhost:5000/sneakers").catch(() => { throw new Error("Failed to fetch"); });
-  
+  const res = await fetch("http://localhost:5000/sneakers").catch(() => {
+    throw new Error("Failed to fetch");
+  });
+
   return res.json();
 }
 
