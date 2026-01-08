@@ -23,7 +23,7 @@ export default async function SneakersPage() {
   return (
     <section className="flex-1 lg:flex lg:justify-center lg:items-center">
       <Suspense fallback={<Loading />}>
-        <ProductTemplate products={data.splice(1, 1)} />
+        <ProductTemplate products={data} />
       </Suspense>
     </section>
   );

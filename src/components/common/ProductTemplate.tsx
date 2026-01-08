@@ -4,27 +4,11 @@ import ProductDetails from "../products/ProductDetails";
 import ProductActionsButton from "../products/ProductActionsButton";
 import { GeneralProductType } from "@/types/productType";
 import ProductMainImage from "../products/ProductMainImage";
-
-
-export default function HorizontalScroll() {
-
-
-  return (
-    <div style={{ overflow: "hidden", width: "320px", position: "relative" }}>
-      <motion.div>
-        {items.map((item) => (
-          <div key={item} style={{ minWidth: "300px", height: "200px", background: "#3b82f6", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px", color: "white" }}>
-            Item {item}
-          </div>
-        ))}
-      </motion.div>
-    </div>
-  );
-}
+import ProductTemplateWrapper from "./ProductTemplateWrapper";
 
 export default function ProductTemplate({ products }: { products: GeneralProductType[] }) {
   return (
-    <>
+    <ProductTemplateWrapper products={products}>
       {products.map(({ id, producerName, productName, productDescription, productPrice, percentageOff, productImages }) => {
         return (
           <main key={id} className="lg:grid lg:gap-x-[7.5rem] lg:grid-cols-2 lg:w-3/4 lg:items-center">
@@ -40,6 +24,6 @@ export default function ProductTemplate({ products }: { products: GeneralProduct
           </main>
         );
       })}
-    </>
+    </ProductTemplateWrapper>
   );
 }
