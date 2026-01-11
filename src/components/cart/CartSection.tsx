@@ -1,5 +1,5 @@
 "use client";
-import { useMainContext } from "@/store/MainContext";
+import { useMainContext } from "@/lib/store/MainContext";
 import CartItemTemplateMain from "./CartItemTemplateMain";
 
 export default function CartSection() {

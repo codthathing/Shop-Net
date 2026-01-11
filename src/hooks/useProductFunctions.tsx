@@ -1,7 +1,7 @@
 "use client";
 import { CartProductType, GeneralProductType } from "@/types/productType";
 import { getAllCartItems } from "./useIndexDB";
-import { useMainContext } from "@/store/MainContext";
+import { useMainContext } from "@/lib/store/MainContext";
 
 export const useProductFunctions = (data?: GeneralProductType[]) => {
   const { cartItems, setCartItems, db } = useMainContext();
@@ -11,7 +11,7 @@ export const useProductFunctions = (data?: GeneralProductType[]) => {
     const cartStore = transaction.objectStore("cartItems");
 
     if (itemCount > 0) {
-      const { productName: currentProductName, productPrice, productImages, percentageOff } = data?.find(({ id }) => id === itemId)!;
+      const { productName: currentProductName, productPrice, productImages, percentageOff } = data!.find(({ id }) => id === itemId)!;
 
       if (cartItems.some(({ productName }) => productName === currentProductName)) {
         const request = cartStore.index("productName").get(currentProductName);

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import image_avatar from "../../../public/assets/image-avatar.png";
 import HeaderNavComponent from "../header/HeaderNavComponent";
 import HeaderNavOpenButton from "../header/HeaderNavOpenButton";
 import CartSection from "../cart/CartSection";
@@ -27,7 +26,7 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-x-4 lg:gap-x-8 mr-5">
         <HeaderCartIcon />
-        <Image src={image_avatar} alt={"Image Avatar"} className="w-6 h-6 lg:w-8 lg:h-8 rounded-full border-2 border-transparent hover:border-[#d9945d] cursor-pointer" />
+        <Image src={"/assets/image-avatar.png"} width={100} height={100} alt={"Image Avatar"} className="w-6 h-6 lg:w-8 lg:h-8 rounded-full border-2 border-transparent hover:border-[#d9945d] cursor-pointer" />
       </div>
       <CartSection />
     </header>

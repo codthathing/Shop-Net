@@ -1,5 +1,5 @@
 "use client";
-import { useMainContext } from "@/store/MainContext";
+import { useMainContext } from "@/lib/store/MainContext";
 import { CartProductType } from "@/types/productType";
 import { Dispatch, SetStateAction, useEffect } from "react";
 
@@ -54,7 +54,7 @@ export const useIndexDB = () => {
     request.onblocked = (event: Event) => {
       console.warn("Database upgrade blocked. Please close other tabs using this database.", (event.target as IDBOpenDBRequest).error);
     };
-  }, [setDb]);
+  }, [setDb, setCartItems]);
 
   return { db, cartItems };
 };

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import cart_icon from "../../../public/assets/icon-cart.svg";
-import { useMainContext } from "@/store/MainContext";
+import { useMainContext } from "@/lib/store/MainContext";
 import { useMemo } from "react";
 
 export default function HeaderCartIcon() {
